@@ -72,84 +72,28 @@
 </nav>
 
 <div class="container">
-  <form class="form-horizontal" role="form">
-   <div class="form-group">
-    <label for="name" class="col-sm-1 control-label">Name</label>
-     <div class="col-sm-5">
-      <input type="text" class="form-control" id="name" placeholder="Snippet name">
-    </div>   
-    <div class="form-group">
-    <label for="author" class="col-md-3">Author Bastian Kuberek</label>    
-   </div> 
-  </div>
- 
-  <div class="form-group">
-    <label for="name" class="col-sm-1 control-label">Description</label>
-     <div class="col-sm-5">
-      <input type="text" class="form-control" id="name" placeholder="Snippet description">
+  <div class="row">
+    <form role="form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Snippet name">
       </div>
-      <div class="row">
-      <div class="col-sm-6"><p> Software Engineer na Spotify
-Web Application Developer na Bastian Kuberek
-Cidade de Nova Iorque e Região, Estados Unidos</p> </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" rows="2" name="description" id="description"></textarea>
       </div>
-    </div>
- <div class="form-group">
-    <label for="content" class="col-sm-1  control-label">Snippet</label>
-    <div class="col-sm-5">
-      <textarea class="form-control" id="content" rows="10">{
-  "bold_folder_labels": true,
-  //"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-  "draw_white_space": "selection",
-  "font_size": 10.0,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    //"AdvancedNewFile",
-    "Vintage"
-  ],
-  "save_on_focus_lost": true,
-  //"soda_classic_tabs": false,
-  "tab_completion": true,
-  "tab_size": 2,
-  //"theme": "Soda Dark.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": false
-}
-</textarea>
-    </div>
-    <div class="row">
-       <div class="col-sm-3"><img class="img-rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSueDxwXhfkHWXl0DiVyeiwnE-5H55PlPGgAqeZB8rhwO-BwJ4Sg5j2dKM" alt="bastiafoto" height="250px"</div>
-     </div>
-     <div class="row">
-     <div class="col-sm-3"> <strong>Skills: </strong><span class="label label-info tags">html5</span> 
-                  <span class="label label-info tags">css3</span>
-                  <span class="label label-info tags">jquery</span>
-                  <span class="label label-info tags">bootstrap3</span>
-                  <span class="label label-info tags">python</span>
-                  <span class="label label-info tags">much more!</span>
-       <p><h3>More about me or contact  <a href="http://www.bkuberek.com"/>check my site!</a><h3> </p>         
-     </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
+      <div class="form-group">
+        <label for="snippet">Snippet</label>
+        <textarea class="form-control" rows="8" name="snippet" id="snippet"></textarea>
+      </div>
       <div class="checkbox">
-        <label for="public">
-          <input type="checkbox" name="public" id="public"> Make public
+        <label>
+          <input type="checkbox"> Make public
         </label>
       </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-default">Create</button>
-    </div>
+    </form>
   </div>
-</form>
-
-  <div class="footer mute">Copyright &copy; 2014 Snip Corp LTD. All rights reserved.</div>
 </div>
 
 
